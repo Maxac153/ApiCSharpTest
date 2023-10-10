@@ -1,0 +1,64 @@
+{
+  "uuid": "fccc3d69-c154-4d68-a44b-eaa7d9a094f1-tr-0-1001",
+  "historyId": "ListUsers.TestListUsers.ListUsers",
+  "fullName": "ListUsers.TestListUsers.ListUsers",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "15"
+    },
+    {
+      "name": "host",
+      "value": "debian"
+    },
+    {
+      "name": "package",
+      "value": "ListUsers"
+    },
+    {
+      "name": "testMethod",
+      "value": "ListUsers"
+    },
+    {
+      "name": "testClass",
+      "value": "TestListUsers"
+    }
+  ],
+  "links": [],
+  "name": "ListUsers",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ListUsers"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ListUsers",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6fedc68ff0ba4fbbbdbc45e23caa0a2e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1696860468581,
+      "stop": 1696860491063
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1696860468580,
+  "stop": 1696860491064
+}

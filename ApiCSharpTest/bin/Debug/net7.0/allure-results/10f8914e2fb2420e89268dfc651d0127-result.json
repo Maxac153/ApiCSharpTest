@@ -1,0 +1,64 @@
+{
+  "uuid": "94469a34-8ed2-48dc-b1c2-c27db9ba1fad-tr-0-1005",
+  "historyId": "Create.TestCreate.Create",
+  "fullName": "Create.TestCreate.Create",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "15"
+    },
+    {
+      "name": "host",
+      "value": "debian"
+    },
+    {
+      "name": "package",
+      "value": "Create"
+    },
+    {
+      "name": "testMethod",
+      "value": "Create"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCreate"
+    }
+  ],
+  "links": [],
+  "name": "Create",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Create"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Create",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "493e9857224d4de2b36d77e278e9a8ef-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1696869587745,
+      "stop": 1696870087629
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1696869587745,
+  "stop": 1696870087631
+}
