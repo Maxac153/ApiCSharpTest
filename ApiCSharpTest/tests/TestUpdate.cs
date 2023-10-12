@@ -19,5 +19,7 @@ public class TestUpdate
         var response = await client.PatchAsync("/api/users/2", content);
 
         var dataResponse = JsonSerializer.Deserialize<UpdateRes>(await response.Content.ReadAsStringAsync());
+
+        Assert.IsTrue(dataResponse.updatedAt.Contains(DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss")));
     }
 }

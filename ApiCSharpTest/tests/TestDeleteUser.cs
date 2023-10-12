@@ -14,6 +14,6 @@ public class TestDeleteUser
 
         HttpResponseMessage response = await client.DeleteAsync(testData.Url);
         
-        Assert.AreEqual(204, (int)response.StatusCode);
+        Assert.AreEqual((int)response.StatusCode, 204);
     }
 }

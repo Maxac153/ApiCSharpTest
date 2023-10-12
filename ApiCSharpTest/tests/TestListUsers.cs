@@ -17,6 +17,12 @@ public class TestListUsers
 
         ListUsersRes dataResponse = JsonSerializer.Deserialize<ListUsersRes>(await response.Content.ReadAsStringAsync());
         
-        Assert.AreEqual(1, 1);
+        Assert.AreEqual(dataResponse.data.avatar, "https://reqres.in/img/faces/2-image.jpg");
+        Assert.AreEqual(dataResponse.data.email, "janet.weaver@reqres.in");
+        Assert.AreEqual(dataResponse.data.first_name, "Janet");
+        Assert.AreEqual(dataResponse.data.id, 2);
+        Assert.AreEqual(dataResponse.data.last_name, "Weaver");
+        Assert.AreEqual(dataResponse.support.text, "To keep ReqRes free, contributions towards server costs are appreciated!");
+        Assert.AreEqual(dataResponse.support.url, "https://reqres.in/#support-heading");
     }
 }

@@ -19,5 +19,7 @@ public class TestCreate
         var response = await client.PostAsync("/api/users", content);
 
         var dataResponse = JsonSerializer.Deserialize<CreateRes>(await response.Content.ReadAsStringAsync());
+
+        Assert.IsTrue(dataResponse.createdAt.Contains(DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss")));
     }
 }
