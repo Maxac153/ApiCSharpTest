@@ -1,0 +1,64 @@
+{
+  "uuid": "ef0678bd-6bdf-4d97-9b83-c36cf3c2a38a-tr-0-1001",
+  "historyId": "Update.TestUpdate.Update",
+  "fullName": "Update.TestUpdate.Update",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "debian"
+    },
+    {
+      "name": "package",
+      "value": "Update"
+    },
+    {
+      "name": "testMethod",
+      "value": "Update"
+    },
+    {
+      "name": "testClass",
+      "value": "TestUpdate"
+    }
+  ],
+  "links": [],
+  "name": "Update",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Update"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Update",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7084e37c68754d41b3356e95d09b7ec2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1697126001562,
+      "stop": 1697126006939
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1697126001562,
+  "stop": 1697126006939
+}
